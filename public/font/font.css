@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'arquitectaregular';
+  src: url('latinotype_-_arquitecta.woff2') format('woff2'),
+    url('latinotype_-_arquitecta.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'nelphim_regular';
+  src: url('nephilm.woff2') format('woff2'), url('nephilm.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

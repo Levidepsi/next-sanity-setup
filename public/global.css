@@ -1,0 +1,149 @@
+html {
+  overflow-x: visible;
+}
+
+body {
+  font-family: 'arquitectaregular';
+  overflow: overlay;
+  background-color: #ece8de;
+  overscroll-behavior: none;
+}
+
+*::-webkit-scrollbar {
+  display: block;
+  width: 7px;
+}
+
+*::-webkit-scrollbar-button {
+  display: none;
+}
+
+*::-webkit-scrollbar-track {
+  position: absolute;
+  right: -3rem;
+  top: -50rem;
+  background: transparent;
+}
+
+*::-webkit-scrollbar-track-piece {
+  background-color: #00000000;
+  width: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.384);
+  border: 5px solid #00000059;
+
+  border-radius: 10rem;
+}
+
+.booknow,
+.contentTitle,
+.menu ul li a {
+  font-family: 'nelphim_regular';
+}
+
+.textBlockWrap .links a {
+  font-family: 'arquitectaregular';
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.wrapper,
+address p {
+  font-family: 'arquitectaregular';
+}
+
+.timedate h2,
+.timedate span {
+  font-family: 'arquitectaregular';
+}
+
+/* fonts */
+
+.wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.wrapper {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.links h5 a {
+  position: relative;
+  display: inline-block;
+  width: 80px;
+}
+
+.links h5 a:hover::after {
+  width: 100%;
+}
+
+.links h5 a::after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 1px;
+  width: 0;
+  top: 5px;
+  background: #1b2b4b;
+  transition: all 0.3s;
+}
+
+.links a {
+  position: relative;
+  display: inline-block;
+}
+
+.links a:hover::after {
+  width: 100%;
+}
+
+.links a::after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 1px;
+  width: 0;
+  top: 5px;
+  background: #1b2b4b;
+  transition: all 0.3s;
+}
+
+.introbtn {
+  position: relative;
+  display: inline-block;
+  font-family: 'arquitecta_regular';
+  letter-spacing: 1.5px;
+  line-height: 25px;
+}
+
+.introbtn:hover::after {
+  width: 100%;
+}
+
+.introbtn::after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 1px;
+  width: 0;
+  top: 5px;
+  background: #1b2b4b;
+  transition: all 0.3s;
+}
+
+.menu {
+  transition: 0.7s;
+  transform: translateY(-100%);
+}
+
+.menu.active {
+  transform: translateY(0);
+}
+
+.diffcolor {
+  color: #1d2b4e;
+}

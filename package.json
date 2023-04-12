@@ -1,0 +1,73 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next",
+    "format": "npx prettier --write . --ignore-path .gitignore",
+    "lint": "next lint -- --ignore-path .gitignore",
+    "lint:fix": "npm run format && npm run lint -- --fix",
+    "start": "next start",
+    "type-check": "tsc --noEmit"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.10.0",
+    "@portabletext/react": "^2.0.0",
+    "@react-email/render": "^0.0.6",
+    "@react-google-maps/api": "^2.17.1",
+    "@sanity/image-url": "^1.0.2",
+    "@sanity/vision": "^3.6.0",
+    "@vercel/og": "^0.0.21",
+    "classnames": "^2.3.2",
+    "date-fns": "^2.29.3",
+    "framer-motion": "^8.5.5",
+    "intl-segmenter-polyfill": "^0.4.4",
+    "js-cookie": "^3.0.1",
+    "next": "13.2.3",
+    "next-sanity": "^3.1.9",
+    "next-sanity-image": "^5.0.0",
+    "nodemailer": "^6.9.1",
+    "nodemailer-postmark-transport": "^5.2.1",
+    "path": "^0.12.7",
+    "postmark": "^3.0.15",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-freeze": "^1.0.3",
+    "react-icons": "^4.7.1",
+    "react-is": "^18.2.0",
+    "react-modal": "^3.16.1",
+    "react-native-video": "^5.2.1",
+    "react-native-vimeo-iframe": "^1.2.1",
+    "react-player": "^2.11.0",
+    "react-slick": "^0.29.0",
+    "reactjs-popup": "^2.0.5",
+    "sanity": "3.8.3",
+    "sanity-plugin-asset-source-unsplash": "^1.0.1",
+    "server-only": "^0.0.1",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.6",
+    "suspend-react": "^0.0.9"
+  },
+  "devDependencies": {
+    "@types/google-map-react": "^2.1.7",
+    "@types/js-cookie": "^3.0.3",
+    "@types/react": "^18.0.26",
+    "@types/react-slick": "^0.23.10",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.31.0",
+    "eslint-config-next": "13.2.3",
+    "eslint-plugin-simple-import-sort": "^8.0.0",
+    "postcss": "^8.4.20",
+    "prettier": "^2.8.1",
+    "prettier-plugin-packagejson": "^2.3.0",
+    "prettier-plugin-tailwindcss": "^0.2.1",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.9.4"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
